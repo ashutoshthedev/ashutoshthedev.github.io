@@ -1,0 +1,29 @@
+#pro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+}
+
+.pro-item {
+    margin-top: 1rem;
+    padding: 3rem;
+    min-width: 50%;
+    background-color: rgba(255, 255, 255, 0.115);
+
+}
+
+.pro-item>ul {
+    margin: 1rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.pro-item ul a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
