@@ -9,8 +9,8 @@
 
 .alert {
   position: fixed;
-  top: 4%;
-  right: 2%;
+  top: 0;
+  right: 0;
   background: rgb(18, 18, 62);
   color: #fff;
   font-weight: 800;
@@ -23,6 +23,7 @@
   border-radius: 10px;
   transform: translateX(150%);
   transition: transform 0.3s ease-in-out;
+  z-index: 999;
 }
 
 .alert .navigation1 {
